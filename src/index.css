@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
 .layout {
-    @apply max-w-[1240px] mx-auto px-2.5
+  @apply max-w-[1240px] mx-auto px-2.5;
+}
+
+.experienced {
+  @apply w-[385px] h-[298px] border rounded-[14px] border-[#f1f1f1] shadow-lg mt-[40px] mx-auto md:mx-0 px-[18px] py-[21px];
+}
+
+.textlay {
+  @apply font-medium text-[28px] mb-3.5 w-[126px] h-[38px];
+}
+
+.textp {
+  @apply font-medium text-[18px] text-[#5c5c5c] w-[349px] h-[108px]
+}
+
+.textpp {
+  @apply text-[18px] font-normal
 }
