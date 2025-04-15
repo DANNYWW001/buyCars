@@ -8,7 +8,7 @@ const Experience = () => {
         <br />
         without compromises
       </h1>
-      <div className=" flex gap-[26px]">
+      <div className=" flex-col lg:flex-row flex gap-[26px]">
         <div className="experienced">
           <h1 className="textlay">Confort</h1>
           <p className="textp">
@@ -31,26 +31,29 @@ const Experience = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-between layout my-10">
+      <div className="flex flex-col lg:flex-row justify-between layout my-10">
         <p className="text-[24px] font-normal ">
-          Trusted by customers since <span className="font-medium text-[24px]">1990</span>
+          Trusted by customers since{" "}
+          <span className="font-medium text-[24px]">1990</span>
         </p>
-        <div className="flex gap-[52px]">
+        <div className=" flex gap-[52px]">
           <div>
             <p className="textpp">
-              Trusted customers <br /> <span className="font-medium text-[38px]">2000+</span>
+              Trusted customers <br />{" "}
+              <span className="font-medium text-[19px] lg:text-[38px]">2000+</span>
             </p>
           </div>
           <div>
             <p className="textpp">
-              Available cars <br /> <span className="font-medium text-[38px]">134+</span>
+              Available cars <br />{" "}
+              <span className="font-medium  text-[19px] lg:text-[38px]">134+</span>
             </p>
           </div>
           <div>
             <p className="textpp">
               Total reservation
               <br />
-              <span className="font-medium text-[38px]">134+</span>
+              <span className="font-medium text-[19px] lg:text-[38px]">134+</span>
             </p>
           </div>
         </div>

@@ -1,3 +1,7 @@
 .hero {
     background-image: url(../src/assets/black.png);
 }
+.zero {
+    background-image: url(../src/assets/white.png);
+    background-position: center;
+}
