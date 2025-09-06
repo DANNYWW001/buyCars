@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <div className="hero h-screen max-h-[689px] bg-no-repeat bg-cover max-w-[1240px]">
+      <div className="hero min-h-screen bg-no-repeat bg-cover bg-center layout">
         <Nav />
         <Hero />
       </div>

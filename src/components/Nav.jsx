@@ -21,7 +21,7 @@ const Nav = () => {
         <div className="hidden lg:flex gap-[49px] text-[16px] font-bold text-[#fcfcfc]">
           {links.map((link, index) => {
             return (
-              <a key={index} href={link.a}>
+              <a key={index} href={link.to}>
                 {link.title}
               </a>
             );
@@ -42,12 +42,12 @@ const Nav = () => {
         </div>
         {/* mobile screen menu */}
         {isMenuOPen && (
-          <div className="text-white bg-black lg:hidden absolute top-[105px] w-1/2 left-[0px] p-2.5">
+          <div className="text-white bg-black lg:hidden absolute top-[105px] w-full left-[0px] p-2.5">
             <div className="flex-col flex gap-[49px] text-[16px] font-bold text-[#fcfcfc]">
               {links.map((link, index) => {
                 return (
-                  <a key={index} href={link.a}>
-                    {link.title}  
+                  <a key={index} href={link.to}>
+                    {link.title}
                   </a>
                 );
               })}
